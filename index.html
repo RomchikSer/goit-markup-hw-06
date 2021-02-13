@@ -385,8 +385,20 @@
             </li>
         </ul>
         </div>
+        <div class="footer-modal-wrapper">
+            <p class="footer-subtitle">Подпишитесь на рассылку</p>
+            <form name="footer-form" autocomplete="on" class="footer-form">
+                <input class="footer-modal-input" name="user-subscribe" type="email" placeholder="E-mail" required>
+                <div class="footer-modal-btn">
+                    <button type="submit" class="footer-modal-form-btn">Подписаться</button>
+                    <svg class="footer-modal-icon" width="24" height="24">
+                        <use href="./photo/photo_icon/sprite5.svg#icon-telegram"></use>
+                    </svg>
+                </div>
+            </form>
+        </div>
     </div>
-    </footer>  
+</footer>  
     <div  data-modal class="backdrop is-hidden">
         <div class="modal-btn">
                 <button class="modal-btn-close" type="button"  data-modal-close>
@@ -394,7 +406,7 @@
                         <use href="./photo/photo_icon/sprite4.svg#icon-close-black"></use>
                     </svg>
                 </button>
-                <form name="modal-form" autocomplete="on" class="contats-form">
+                <form name="modal-form" autocomplete="on" class="contacts-form">
                     <p class="contact-title">Оставьте свои данные, мы вам перезвоним</p>
                     <label for="user-name" class="user-name-title">Имя</label>
                     <span class="modal-form-input-wrap">
