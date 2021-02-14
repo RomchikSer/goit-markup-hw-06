@@ -773,16 +773,16 @@ img {
     transition-duration: 250ms;
     transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .modal-btn-close:hover .modal-close-svg,
+  .modal-btn-close:focus .modal-close-svg {
+      fill: var(--focus-text-color);
+  }
   .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
   }
-.modal-btn-close:hover ,
-.modal-btn-close:focus {
-    background-color: #2196F3;
-    -moz-outline-radius: 50%;
-  }
+
 .contacts-form {
     display: flex;
     flex-direction: column;
@@ -875,14 +875,6 @@ img {
     border-radius: 2px;
 
 } 
-/* .modal-check-policy:checked + .modal-form-lable-policy::before {
-    background-image: url(../photo/photo_icon/chek.svg)
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: none;
-    
-} */
 .modal-check-policy:checked + .modal-form-lable-policy::before {
     background-image: url(../photo/photo_icon/icon_check.svg);
     outline: none;
