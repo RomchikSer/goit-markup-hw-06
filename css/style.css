@@ -883,12 +883,12 @@ img {
     border: none;
     
 } */
-.modal-check-policy:checked + .modal-form-label-policy::before {
+.modal-check-policy:checked + .modal-form-lable-policy::before {
     background-image: url(../photo/photo_icon/icon_check.svg);
     outline: none;
   }
   
-  .modal-check-policy:focus + .modal-form-label-policy::before {
+  .modal-check-policy:focus + .modal-form-lable-policy::before {
     outline: 2px solid var(--focus-text-color);
     
   }
