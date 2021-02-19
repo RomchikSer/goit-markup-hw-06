@@ -669,8 +669,7 @@ img {
   .footer-modal-wrapper {
       margin-left: auto;
   }
-  .footer-modal-btn {
-    display: inline-block;
+  .footer-form {
     position: relative;
   }
   .footer-modal-input {
@@ -896,6 +895,7 @@ img {
 }
 .policy-link {
     color: var(--focus-text-color);
+    margin-left: 5px;
 }
 .modal-form-button {
     border: 1px solid transparent;
